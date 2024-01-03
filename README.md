@@ -1,1 +1,1 @@
-This is a simple Chocolate website 🍫 
+This is my first Github repository for a simple chocolate website 🍫.
