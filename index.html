@@ -5,37 +5,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EatSomeChocolate!</title>
-    <link rel="shortcut icon" href="favicon/android-chrome-512x512.png" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
     <style>
         * {
-            
+
             margin: 0;
+            box-sizing: border-box;
             /* margin: top 10px; */
         }
 
         .header {
             text-align: center;
-            background-color: rgb(181, 11, 224);
+            background-color: rgb(204, 15, 106);
             color: white;
-            font-family:sans-serif;
+            font-family:cursive;
+            font-size: xx-large; 
             font-weight: 500;
             height: fit-content;
-            width: fit-content;
-            
-
+            /* width: fit-content;  */
+            /* text-decoration: wavy; */
         }
 
         body {
             background-color: antiquewhite;
+            max-width: 100%;
+            font-size: 20px;   /* Adjust as needed for comfortable reading */
+            line-height: 1.5;   /*Adjust as needed for comfortable reading */
         }
+        
 
         #logo {
-            color: chocolate;
+            color: blueviolet;
             font-family: Georgia, Times;
         }
 
+
         .logo {
             font-family: cursive;
+            font-size: 35px;
             font-weight: 800;
             color: rgb(204, 15, 106);
             margin: 10px;
@@ -43,56 +50,70 @@
 
         #items {
             margin-left: 10px;
-            font-family: 'Times New Roman', Times, serif;
-            font-weight: 300;
+            font-family:cursive;
+            font-weight: 600;
+            font-size: large;
+            color: rgb(204, 15, 106);
 
         }
 
         .custom {
-            font-family: monospace;
+            font-family: cursive;
+            color: rgb(204, 15, 106);
 
+        }
+
+        .custom li a:hover {
+            color: ghostwhite;
+            text-decoration: none;
         }
 
         img {
-            width: 75px;
-            height: 75px;
+            width: 155px;
+            height: 155px;
         }
 
-        #white:hover {
-            color: white;
-            text-decoration: solid;
-            background-color: chocolate;
+        .white:hover,
+        .dark:hover,
+        .wood:hover,
+        .bar:hover {
+            text-decoration:solid;
+            background-color: #cc0f6a;
             width: fit-content;
+            color: blueviolet;
+            
         }
     </style>
 </head>
 
 <body>
     <header class="header">
-        <h5> Yummy yummy chocolates .</h5>
+        <h5> Yummy yummy chocolates!</h5>
     </header>
     <br>
-    <h4 class="logo">pinch <span id="logo">of</span> yum!</h4>
+    <h4 class="logo">pinch<span id="logo"><i>of</i></span>yum!</h4>
     <br>
+
     <span id="items"> Our Items:</span>
+
     <ul class="custom">
-        <li class="dark">Dark chocolate </li>
+        <li class="dark"><a href="https://en.wikipedia.org/wiki/Dark_chocolate" target="_blank">Dark Chocolate </a></li>
         <img src="https://images.pexels.com/photos/2067396/pexels-photo-2067396.jpeg?auto=compress&cs=tinysrgb&w=300"
             alt="Chocolate">
 
-        <li id="white"><a href="https://en.wikipedia.org/wiki/White_chocolate" target="_blank">white chocolate</a></li>
+        <li class="white"><a href="https://en.wikipedia.org/wiki/White_chocolate" target="_blank">White Chocolate</a>
+        </li>
         <img src="https://images.unsplash.com/photo-1548907040-4baa42d10919?q=80&w=1036&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="white chocolate">
 
-        <li>Chocolate bars</li>
+        <li class="bar"> <a href="https://en.wikipedia.org/wiki/Chocolate_bar" target="_blank"> Chocolate bars</a>
+        </li>
         <img src="https://images.unsplash.com/photo-1610450949065-1f2841536c88?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Chocolate bars">
-    </ul>
-    <ul class="customer">
-        <li>wooden bar</li>
+
+        <li class="wood"><a href="https://www.etsy.com/market/wooden_chocolate_bar" target="_blank">Wooden Bar Chocolate</a></li>
         <img src="https://images.unsplash.com/photo-1606312619070-d48b4c652a52?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="wooden bar">
-    </ul>
 </body>
 
 </html>
