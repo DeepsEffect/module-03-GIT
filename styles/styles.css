@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.header> h5{
+    font-family:'Pacifico', 'cursive';
+    font-size: xx-large; 
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: rgb(204, 15, 106);
+    color: rgb(242, 242, 242);
+    height: fit-content;
+}
+body {
+    background-color: antiquewhite;
+    max-width: 100%;
+    font-size: 20px;  
+    line-height: 1.5;
+}
+#of{
+    color: blueviolet;
+    font-family: Georgia, Times;
+}
+.logo{
+    font-family: cursive;
+    font-size: 35px;
+    font-weight: 800;
+    color: rgb(204, 15, 106);
+    margin: 10px;
+}
+#items {
+    margin-left: 10px;
+    font-family:'caveat';
+    font-size:30px;
+    color: rgb(204, 15, 106);
+    font-weight: 700;
+}
+.custom {
+    font-family: 'Tektur', sans-serif;
+    color: rgb(204, 15, 106);
+
+}
+.custom > li a:hover {
+    color: ghostwhite;
+    background-color: rgb(204, 15, 106);
+    width: fit-content;
+}
+.custom> li:hover{
+    color: blueviolet;
+}
+.custom> li a{
+    text-decoration: none;
+    color: rgb(151, 68, 8);
+}
+img {
+    width: 155px;
+    height: 155px;
+}
