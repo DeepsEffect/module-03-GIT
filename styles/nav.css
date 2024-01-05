@@ -1,0 +1,13 @@
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 15px;
+    padding: 5px;
+    font-weight: 600;
+}
+nav li a{
+    text-decoration: none;
+    color: blueviolet;
+}
