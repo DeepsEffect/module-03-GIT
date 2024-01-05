@@ -7,7 +7,7 @@
 }
 .header> h5{
     font-family:'Pacifico', 'cursive';
-    font-size: xx-large; 
+    font-size: 28px; 
     letter-spacing: 2px;
     padding-bottom: 10px;
     text-align: center;
@@ -42,7 +42,6 @@ body {
 .custom {
     font-family: 'Tektur', sans-serif;
     color: rgb(204, 15, 106);
-
 }
 .custom > li a:hover {
     color: ghostwhite;
@@ -51,6 +50,7 @@ body {
 }
 .custom> li:hover{
     color: blueviolet;
+    width: fit-content;
 }
 .custom> li a{
     text-decoration: none;
@@ -59,4 +59,18 @@ body {
 img {
     width: 155px;
     height: 155px;
+}
+
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 15px;
+    padding: 5px;
+    font-weight: 600;
+}
+nav li a{
+    text-decoration: none;
+    color: blueviolet;
 }
