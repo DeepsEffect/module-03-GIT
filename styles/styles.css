@@ -48,7 +48,7 @@ body {
     background-color: rgb(204, 15, 106);
     width: fit-content;
 }
-.custom> li:hover{
+.custom > li:hover{
     color: blueviolet;
     width: fit-content;
 }
